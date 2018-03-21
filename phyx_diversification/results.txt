@@ -1,0 +1,10 @@
+yule model fits better by 1.65455e-05 AIC units
+ntips: 2453
+nspeciation: 2451
+treelength: 83276.5
+rootheight: 140
+model: yule
+likelihood: 5597.43
+aic: -11192.9
+aicc: -11192.9
+b: 0.0294321

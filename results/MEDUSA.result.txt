@@ -1,0 +1,261 @@
+
+
+Optimizing parameters for pendant edges... done.
+Pre-calculating parameters for internal nodes... done.
+
+Step 1: lnLik=-18129.32; AICc=36262.65; model=bd
+Step 2: lnLik=-17929.23; AICc=35868.48; shift at node 4333; model=bd; cut=node; # shifts=1
+Step 3: lnLik=-17825.75; AICc=35667.53; shift at node 2957; model=bd; cut=stem; # shifts=2
+Step 4: lnLik=-17756.33; AICc=35534.71; shift at node 4871; model=bd; cut=node; # shifts=3
+Step 5: lnLik=-17693.09; AICc=35414.26; shift at node 3129; model=bd; cut=stem; # shifts=4
+Step 6: lnLik=-17630.66; AICc=35293.43; shift at node 4488; model=yule; cut=node; # shifts=5
+Step 7: lnLik=-17563.69; AICc=35165.53; shift at node 3452; model=bd; cut=node; # shifts=6
+Step 8: lnLik=-17495.84; AICc=35033.86; shift at node 824; model=yule; cut=stem; # shifts=7
+Step 9: lnLik=-17446.43; AICc=34939.09; shift at node 2658; model=yule; cut=node; # shifts=8
+Step 10: lnLik=-17396.98; AICc=34846.25; shift at node 4179; model=bd; cut=node; # shifts=9
+Step 11: lnLik=-17344.58; AICc=34747.51; shift at node 4284; model=bd; cut=stem; # shifts=10
+Step 12: lnLik=-17292.62; AICc=34647.64; shift at node 3254; model=yule; cut=stem; # shifts=11
+Step 13: lnLik=-17249.76; AICc=34565.99; shift at node 3673; model=yule; cut=stem; # shifts=12
+Step 14: lnLik=-17211.27; AICc=34493.06; shift at node 4781; model=yule; cut=stem; # shifts=13
+Step 15: lnLik=-17175.66; AICc=34427.93; shift at node 4860; model=bd; cut=stem; # shifts=14
+Step 16: lnLik=-17142.57; AICc=34365.82; shift at node 3008; model=yule; cut=node; # shifts=15
+Step 17: lnLik=-17111.14; AICc=34307.01; shift at node 4564; model=yule; cut=stem; # shifts=16
+Step 18: lnLik=-17081.23; AICc=34253.31; shift at node 3446; model=bd; cut=stem; # shifts=17
+Step 19: lnLik=-17044.68; AICc=34186.32; shift at node 3324; model=bd; cut=stem; # shifts=18
+Step 20: lnLik=-17018.48; AICc=34138.01; shift at node 2763; model=yule; cut=node; # shifts=19
+Step 21: lnLik=-16993.81; AICc=34092.76; shift at node 3078; model=yule; cut=stem; # shifts=20
+Step 22: lnLik=-16967.93; AICc=34047.13; shift at node 2962; model=bd; cut=node; # shifts=21
+Step 23: lnLik=-16943.27; AICc=33999.86; shift at node 609; model=yule; cut=stem; # shifts=22
+Step 24: lnLik=-16919.69; AICc=33956.8; shift at node 1594; model=yule; cut=stem; # shifts=23
+Step 25: lnLik=-16896.84; AICc=33915.2; shift at node 2677; model=yule; cut=node; # shifts=24
+Step 26: lnLik=-16874.38; AICc=33874.38; shift at node 2939; model=yule; cut=node; # shifts=25
+Step 27: lnLik=-16852.08; AICc=33833.87; shift at node 72; model=yule; cut=stem; # shifts=26
+Step 28: lnLik=-16829.2; AICc=33794.29; shift at node 4223; model=bd; cut=node; # shifts=27
+Step 29: lnLik=-16810.5; AICc=33760.99; shift at node 3856; model=yule; cut=node; # shifts=28
+Step 30: lnLik=-16791.19; AICc=33726.5; shift at node 1437; model=yule; cut=stem; # shifts=29
+Step 31: lnLik=-16772.71; AICc=33693.65; shift at node 3754; model=yule; cut=stem; # shifts=30
+Step 32: lnLik=-16754.47; AICc=33661.3; shift at node 4376; model=yule; cut=node; # shifts=31
+Step 33: lnLik=-16736.04; AICc=33630.64; shift at node 4725; model=bd; cut=stem; # shifts=32
+Step 34: lnLik=-16718.81; AICc=33600.3; shift at node 2288; model=yule; cut=stem; # shifts=33
+Step 35: lnLik=-16701.61; AICc=33570.05; shift at node 4503; model=yule; cut=node; # shifts=34
+Step 36: lnLik=-16681.36; AICc=33535.76; shift at node 2469; model=bd; cut=stem; # shifts=35
+Step 37: lnLik=-16655.13; AICc=33489.51; shift at node 4562; model=bd; cut=stem; # shifts=36
+  Removing shift at node #3446
+Step 38: lnLik=-16635.67; AICc=33448.52; shift at node 1650; model=yule; cut=stem; # shifts=36
+Step 39: lnLik=-16614.97; AICc=33411.27; shift at node 4367; model=yule; cut=stem; # shifts=37
+Step 40: lnLik=-16594.79; AICc=33375.06; shift at node 4475; model=yule; cut=stem; # shifts=38
+Step 41: lnLik=-16574.38; AICc=33338.39; shift at node 1800; model=yule; cut=stem; # shifts=39
+Step 42: lnLik=-16557.6; AICc=33308.99; shift at node 1370; model=yule; cut=stem; # shifts=40
+Step 43: lnLik=-16540.03; AICc=33280.11; shift at node 3977; model=bd; cut=node; # shifts=41
+Step 44: lnLik=-16523.79; AICc=33251.78; shift at node 2875; model=yule; cut=node; # shifts=42
+Step 45: lnLik=-16507.85; AICc=33224.08; shift at node 1049; model=yule; cut=stem; # shifts=43
+Step 46: lnLik=-16492.64; AICc=33197.84; shift at node 3457; model=yule; cut=node; # shifts=44
+Step 47: lnLik=-16477.72; AICc=33172.16; shift at node 3184; model=yule; cut=stem; # shifts=45
+Step 48: lnLik=-16461.76; AICc=33146.51; shift at node 3366; model=bd; cut=stem; # shifts=46
+Step 49: lnLik=-16447.92; AICc=33123.04; shift at node 267; model=yule; cut=stem; # shifts=47
+Step 50: lnLik=-16434.81; AICc=33100.99; shift at node 4087; model=yule; cut=node; # shifts=48
+Step 51: lnLik=-16421.7; AICc=33078.97; shift at node 3258; model=yule; cut=node; # shifts=49
+Step 52: lnLik=-16406.62; AICc=33055.1; shift at node 2484; model=bd; cut=stem; # shifts=50
+Step 53: lnLik=-16392.33; AICc=33030.74; shift at node 442; model=yule; cut=stem; # shifts=51
+Step 54: lnLik=-16377.63; AICc=33005.54; shift at node 2717; model=yule; cut=stem; # shifts=52
+Step 55: lnLik=-16364.04; AICc=32982.57; shift at node 2671; model=yule; cut=node; # shifts=53
+Step 56: lnLik=-16349.19; AICc=32959.19; shift at node 3123; model=bd; cut=stem; # shifts=54
+Step 57: lnLik=-16335.05; AICc=32935.13; shift at node 94; model=yule; cut=stem; # shifts=55
+Step 58: lnLik=-16320.45; AICc=32910.14; shift at node 2790; model=yule; cut=stem; # shifts=56
+Step 59: lnLik=-16304.35; AICc=32884.29; shift at node 2744; model=bd; cut=stem; # shifts=57
+Step 60: lnLik=-16291.91; AICc=32863.64; shift at node 348; model=yule; cut=stem; # shifts=58
+Step 61: lnLik=-16279.02; AICc=32842.08; shift at node 2883; model=yule; cut=node; # shifts=59
+Step 62: lnLik=-16264.98; AICc=32820.37; shift at node 2913; model=bd; cut=stem; # shifts=60
+Step 63: lnLik=-16252.54; AICc=32799.73; shift at node 169; model=yule; cut=stem; # shifts=61
+Step 64: lnLik=-16240.32; AICc=32779.54; shift at node 131; model=yule; cut=stem; # shifts=62
+Step 65: lnLik=-16225.54; AICc=32756.35; shift at node 2477; model=bd; cut=stem; # shifts=63
+Step 66: lnLik=-16206.86; AICc=32723.25; shift at node 2608; model=yule; cut=stem; # shifts=64
+Step 67: lnLik=-16193.35; AICc=32700.49; shift at node 84; model=yule; cut=stem; # shifts=65
+Step 68: lnLik=-16181.34; AICc=32680.74; shift at node 1186; model=yule; cut=stem; # shifts=66
+Step 69: lnLik=-16169.41; AICc=32661.14; shift at node 4161; model=yule; cut=node; # shifts=67
+Step 70: lnLik=-16158.62; AICc=32641.69; shift at node 4231; model=yule; cut=node; # shifts=68
+Step 71: lnLik=-16145.74; AICc=32622.34; shift at node 3942; model=bd; cut=stem; # shifts=69
+Step 72: lnLik=-16132.82; AICc=32602.91; shift at node 4676; model=bd; cut=stem; # shifts=70
+Step 73: lnLik=-16119.15; AICc=32581.99; shift at node 3634; model=bd; cut=stem; # shifts=71
+Step 74: lnLik=-16106.71; AICc=32561.41; shift at node 4818; model=yule; cut=node; # shifts=72
+Step 75: lnLik=-16094.37; AICc=32541.03; shift at node 1523; model=yule; cut=stem; # shifts=73
+Step 76: lnLik=-16082.11; AICc=32520.79; shift at node 1663; model=yule; cut=stem; # shifts=74
+Step 77: lnLik=-16068.52; AICc=32500.07; shift at node 3731; model=bd; cut=stem; # shifts=75
+Step 78: lnLik=-16055.83; AICc=32478.99; shift at node 3599; model=yule; cut=stem; # shifts=76
+Step 79: lnLik=-16042.93; AICc=32457.49; shift at node 4077; model=yule; cut=node; # shifts=77
+Step 80: lnLik=-16029.91; AICc=32435.77; shift at node 1338; model=yule; cut=stem; # shifts=78
+Step 81: lnLik=-16017.73; AICc=32415.73; shift at node 2089; model=yule; cut=stem; # shifts=79
+Step 82: lnLik=-16006.08; AICc=32396.74; shift at node 2279; model=yule; cut=stem; # shifts=80
+Step 83: lnLik=-15994.17; AICc=32377.25; shift at node 3548; model=yule; cut=stem; # shifts=81
+Step 84: lnLik=-15982.34; AICc=32357.91; shift at node 4324; model=yule; cut=node; # shifts=82
+Step 85: lnLik=-15970.85; AICc=32339.27; shift at node 4248; model=yule; cut=node; # shifts=83
+Step 86: lnLik=-15958.33; AICc=32320.73; shift at node 4314; model=bd; cut=stem; # shifts=84
+Step 87: lnLik=-15945.88; AICc=32302.34; shift at node 4749; model=bd; cut=node; # shifts=85
+Step 88: lnLik=-15934.17; AICc=32283.26; shift at node 3309; model=yule; cut=node; # shifts=86
+Step 89: lnLik=-15922.87; AICc=32265; shift at node 3033; model=yule; cut=node; # shifts=87
+Step 90: lnLik=-15910.79; AICc=32247.37; shift at node 4216; model=bd; cut=stem; # shifts=88
+Step 91: lnLik=-15899.89; AICc=32229.94; shift at node 1496; model=yule; cut=stem; # shifts=89
+Step 92: lnLik=-15889.01; AICc=32212.54; shift at node 3400; model=yule; cut=stem; # shifts=90
+Step 93: lnLik=-15877.25; AICc=32193.37; shift at node 3328; model=yule; cut=stem; # shifts=91
+Step 94: lnLik=-15866.44; AICc=32176.12; shift at node 2908; model=yule; cut=node; # shifts=92
+Step 95: lnLik=-15855.7; AICc=32159.03; shift at node 4430; model=yule; cut=stem; # shifts=93
+Step 96: lnLik=-15843.72; AICc=32141.62; shift at node 3449; model=bd; cut=stem; # shifts=94
+Step 97: lnLik=-15833.12; AICc=32124.81; shift at node 2105; model=yule; cut=stem; # shifts=95
+Step 98: lnLik=-15822.19; AICc=32109.52; shift at node 2724; model=bd; cut=stem; # shifts=96
+Step 99: lnLik=-15805.55; AICc=32078.44; shift at node 2739; model=yule; cut=stem; # shifts=97
+Step 100: lnLik=-15795.74; AICc=32063.21; shift at node 1070; model=yule; cut=stem; # shifts=98
+Step 101: lnLik=-15785.94; AICc=32048.01; shift at node 3228; model=yule; cut=node; # shifts=99
+Step 102: lnLik=-15776.58; AICc=32033.69; shift at node 1059; model=yule; cut=stem; # shifts=100
+Step 103: lnLik=-15767.35; AICc=32019.64; shift at node 2446; model=yule; cut=stem; # shifts=101
+Step 104: lnLik=-15758.03; AICc=32005.41; shift at node 4067; model=yule; cut=node; # shifts=102
+Step 105: lnLik=-15748.96; AICc=31991.68; shift at node 3836; model=yule; cut=stem; # shifts=103
+Step 106: lnLik=-15738.42; AICc=31977.21; shift at node 4469; model=bd; cut=stem; # shifts=104
+Step 107: lnLik=-15728.55; AICc=31961.91; shift at node 4143; model=yule; cut=stem; # shifts=105
+Step 108: lnLik=-15718.54; AICc=31946.31; shift at node 3789; model=yule; cut=node; # shifts=106
+Step 109: lnLik=-15705.45; AICc=31924.56; shift at node 3770; model=yule; cut=stem; # shifts=107
+Step 110: lnLik=-15693.4; AICc=31904.88; shift at node 3766; model=yule; cut=node; # shifts=108
+Step 111: lnLik=-15685.59; AICc=31891.49; shift at node 2755; model=yule; cut=node; # shifts=109
+Step 112: lnLik=-15676.68; AICc=31878.1; shift at node 2952; model=yule; cut=node; # shifts=110
+Step 113: lnLik=-15667.96; AICc=31865.1; shift at node 1560; model=yule; cut=stem; # shifts=111
+Step 114: lnLik=-15659.35; AICc=31852.33; shift at node 2879; model=yule; cut=node; # shifts=112
+Step 115: lnLik=-15650.82; AICc=31839.73; shift at node 4874; model=yule; cut=stem; # shifts=113
+Step 116: lnLik=-15642.43; AICc=31827.39; shift at node 19; model=yule; cut=stem; # shifts=114
+Step 117: lnLik=-15634.07; AICc=31815.14; shift at node 1289; model=yule; cut=stem; # shifts=115
+Step 118: lnLik=-15625.73; AICc=31802.91; shift at node 3491; model=yule; cut=node; # shifts=116
+Step 119: lnLik=-15615.01; AICc=31785.94; shift at node 3487; model=yule; cut=stem; # shifts=117
+Step 120: lnLik=-15606.7; AICc=31773.8; shift at node 499; model=yule; cut=stem; # shifts=118
+Step 121: lnLik=-15598.72; AICc=31762.3; shift at node 4198; model=yule; cut=node; # shifts=119
+Step 122: lnLik=-15590.75; AICc=31750.83; shift at node 2876; model=yule; cut=node; # shifts=120
+Step 123: lnLik=-15582.8; AICc=31739.42; shift at node 4666; model=yule; cut=node; # shifts=121
+Step 124: lnLik=-15574.99; AICc=31728.28; shift at node 1628; model=yule; cut=stem; # shifts=122
+Step 125: lnLik=-15567; AICc=31716.8; shift at node 4005; model=yule; cut=node; # shifts=123
+
+No significant increase in aicc score. Disregarding subsequent piecewise models.
+
+Summary of optimal MEDUSA model:
+    Model.ID Shift.Node Cut.At Model Ln.Lik.part           r  epsilon
+1          1       2454   node    bd   -3774.258 2.41621e-02 0.840131
+2          2       4333   node    bd   -159.0679 8.73557e-02 0.992458
+3          3       2957   stem  yule   -379.9657 2.07054e-01       NA
+4          4       4871   node    bd   -84.77717 5.54089e-05 0.999990
+5          5       3129   stem    bd   -123.3028 1.08427e-01 0.978838
+6          6       4488   node  yule   -13.89868 4.82972e-01       NA
+7          7       3452   node    bd   -176.1809 1.73266e-02 0.990323
+8          8        824   stem  yule   -7.810694 4.45150e-01       NA
+9          9       2658   node  yule    -9.30126 2.66085e+00       NA
+10        10       4179   node    bd   -375.7107 1.94781e-02 0.993793
+11        11       4284   stem    bd   -184.0843 1.68404e-01 0.675962
+12        12       3254   stem  yule   -12.96376 8.84735e-01       NA
+13        13       3673   stem  yule   -15.42138 3.17793e-01       NA
+14        14       4781   stem  yule    -192.726 3.36395e-02       NA
+15        15       4860   stem    bd   -37.16009 4.35949e-01 0.835690
+16        16       3008   node  yule   -48.69437 1.08475e+00       NA
+17        17       4564   stem  yule   -384.7082 1.35150e-01       NA
+18        18       3324   stem    bd   -288.0141 2.90409e-02 0.512363
+19        19       2763   node  yule   -5.215532 3.40532e+01       NA
+20        20       3078   stem  yule   -22.10919 7.66751e-01       NA
+21        21       2962   node    bd   -299.0453 1.36937e-01 0.896569
+22        22        609   stem  yule   -4.901956 1.25387e+00       NA
+23        23       1594   stem  yule   -6.078292 4.25591e-01       NA
+24        24       2677   node  yule   -34.64523 7.61686e-01       NA
+25        25       2939   node  yule   -53.10421 2.44238e-02       NA
+26        26         72   stem  yule   -5.548595 9.50052e-01       NA
+27        27       4223   node  yule   -76.68806 6.24248e-02       NA
+28        28       3856   node  yule   -406.0372 1.16391e-01       NA
+29        29       1437   stem  yule   -4.901956 4.89722e-01       NA
+30        30       3754   stem  yule   -15.66021 1.54480e-01       NA
+31        31       4376   node  yule   -69.83418 4.95133e-01       NA
+32        32       4725   stem    bd   -89.79627 1.92225e-01 0.813254
+33        33       2288   stem  yule   -5.400597 7.92581e-01       NA
+34        34       4503   node  yule   -103.0964 3.32186e-01       NA
+35        35       2469   stem    bd   -1542.818 4.12021e-02 0.876442
+36        36       4562   stem    bd   -183.0481 8.10489e-02 0.926007
+37        37       1650   stem  yule   -4.979667 1.07933e+00       NA
+38        38       4367   stem  yule   -212.7865 2.08100e-01       NA
+39        39       4475   stem  yule   -23.72606 4.74650e-01       NA
+40        40       1800   stem  yule   -7.121396 1.84036e-01       NA
+41        41       1370   stem  yule   -5.569539 4.37123e-01       NA
+42        42       3977   node    bd   -24.72548 5.23001e-05 0.999983
+43        43       2875   node  yule    -9.97794 5.89552e-01       NA
+44        44       1049   stem  yule     -6.5393 2.08220e-01       NA
+45        45       3457   node  yule   -77.60842 6.69987e-01       NA
+46        46       3184   stem  yule   -99.27045 3.22992e-01       NA
+47        47       3366   stem    bd   -114.9215 4.36009e-02 0.904616
+48        48        267   stem  yule    -4.65063 1.15427e+00       NA
+49        49       4087   node  yule   -6.604336 1.32034e+00       NA
+50        50       3258   node  yule   -16.37191 3.69045e-01       NA
+51        51       2484   stem    bd     -494.99 9.14306e-02 0.778395
+52        52        442   stem  yule   -5.016369 7.65368e-01       NA
+53        53       2717   stem  yule   -37.80335 3.61796e-01       NA
+54        54       2671   node  yule   -89.69535 2.47865e-01       NA
+55        55       3123   stem    bd   -206.9314 1.19968e-01 0.777928
+56        56         94   stem  yule   -7.448098 1.55285e-01       NA
+57        57       2790   stem  yule   -90.93406 1.57203e-01       NA
+58        58       2744   stem  yule   -94.27852 2.07362e-01       NA
+59        59        348   stem  yule   -4.860711 5.53686e-01       NA
+60        60       2883   node  yule   -44.06192 2.68550e-01       NA
+61        61       2913   stem    bd   -96.24759 1.18830e-01 0.762989
+62        62        169   stem  yule   -4.676274 5.48613e-01       NA
+63        63        131   stem  yule   -5.901562 2.32809e-01       NA
+64        64       2477   stem    bd   -780.6544 5.01225e-02 0.363220
+65        65       2608   stem  yule   -31.04207 2.20080e-01       NA
+66        66         84   stem  yule   -3.917649 4.71904e-01       NA
+67        67       1186   stem  yule   -5.337284 3.67249e-01       NA
+68        68       4161   node  yule   -8.759796 1.24901e+00       NA
+69        69       4231   node  yule   -15.64185 2.25138e-01       NA
+70        70       3942   stem    bd   -144.7838 6.55245e-02 0.897410
+71        71       4676   stem    bd   -112.8806 1.06927e-01 0.732209
+72        72       3634   stem    bd   -95.98291 6.38646e-02 0.911823
+73        73       4818   node  yule   -41.98916 2.20927e-01       NA
+74        74       1523   stem  yule   -5.135156 3.78800e-01       NA
+75        75       1663   stem  yule   -6.725217 1.41506e-01       NA
+76        76       3731   stem    bd   -29.87888 9.05007e-02 0.917541
+77        77       3599   stem  yule    -28.2924 1.21497e-01       NA
+78        78       4077   node  yule   -56.79086 2.56222e-01       NA
+79        79       1338   stem  yule   -5.527204 2.72774e-01       NA
+80        80       2089   stem  yule   -4.314131 6.63787e-01       NA
+81        81       2279   stem  yule   -6.096811 1.74366e-01       NA
+82        82       3548   stem  yule   -29.77993 1.60529e-01       NA
+83        83       4324   node  yule   -18.70683 3.52922e-01       NA
+84        84       4248   node  yule           0 0.00000e+00       NA
+85        85       4314   stem    bd   -51.41938 2.74141e-01 0.876909
+86        86       4749   node    bd   -153.8585 9.05808e-03 0.986421
+87        87       3309   node  yule   -62.03248 1.59887e-01       NA
+88        88       3033   node  yule   -47.22262 9.13852e-02       NA
+89        89       4216   stem    bd    -39.0264 2.38535e-02 0.839914
+90        90       1496   stem  yule   -4.384342 4.83049e-01       NA
+91        91       3400   stem  yule   -79.54345 8.47496e-02       NA
+92        92       3328   stem  yule   -174.5129 7.89457e-02       NA
+93        93       2908   node  yule           0 0.00000e+00       NA
+94        94       4430   stem  yule   -124.5981 1.53129e-01       NA
+95        95       3449   stem    bd   -1333.204 4.20401e-02 0.737146
+96        96       2105   stem  yule   -4.384342 4.92204e-01       NA
+97        97       2724   stem  yule   -150.4631 4.97565e-02       NA
+98        98       2739   stem  yule   -114.2192 1.35787e-01       NA
+99        99       1070   stem  yule   -4.449946 3.97633e-01       NA
+100      100       3228   node  yule   -8.756132 1.17623e-02       NA
+101      101       1059   stem  yule   -5.916322 1.63093e-01       NA
+102      102       2446   stem  yule   -4.839433 2.72415e-01       NA
+103      103       4067   node  yule   -10.33797 4.21818e-01       NA
+104      104       3836   stem  yule   -52.23978 1.56408e-01       NA
+105      105       4469   stem    bd   -104.1839 5.05434e-02 0.871520
+106      106       4143   stem  yule   -57.57108 9.07577e-02       NA
+107      107       3789   node  yule   -8.628262 2.22316e-01       NA
+108      108       3770   stem  yule   -187.9107 5.67367e-02       NA
+109      109       3766   node  yule   -36.38519 1.16001e-02       NA
+110      110       2755   node  yule   -12.28934 5.56981e-01       NA
+111      111       2952   node  yule   -47.66226 2.96789e-02       NA
+112      112       1560   stem  yule   -4.417682 3.18201e-01       NA
+113      113       2879   node  yule   -53.60551 5.01977e-02       NA
+114      114       4874   stem  yule   -45.99099 6.78656e-01       NA
+115      115         19   stem  yule     -4.5695 7.99186e-01       NA
+116      116       1289   stem  yule   -5.871371 1.23940e-01       NA
+117      117       3491   node  yule   -6.884064 3.29218e+00       NA
+118      118       3487   stem  yule   -84.87923 1.11324e-01       NA
+119      119        499   stem  yule   -4.676274 2.20933e+00       NA
+120      120       4198   node  yule   -3.819085 1.73145e-02       NA
+121      121       2876   node  yule           0 0.00000e+00       NA
+122      122       4666   node  yule           0 0.00000e+00       NA
+123      123       1628   stem  yule   -5.494233 1.41689e-01       NA
+124      124       4005   node  yule    -40.8465 1.48975e-01       NA
+
