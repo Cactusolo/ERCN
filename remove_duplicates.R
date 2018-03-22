@@ -9,7 +9,7 @@ Dup_name_branch <- function(tree, list){
   Dup_List <- NULL  
   for(i in index){
     if(i %in% tree$edge[, 2]){
-      tip <- paste0(tree$tip.label[i], spe="_", i)
+      tip <- paste0(tree$tip.label[i], sep="_", i)
       matrix <- cbind.data.frame(seq(1,length(tree$edge.length)),tree$edge,tree$edge.length)
       colnames(matrix) <- c("Index", "Pos_1", "Pos_2", "brlen")
       Loc <- matrix$Index[matrix$Pos_2==i]
@@ -24,14 +24,21 @@ Dup_name_branch <- function(tree, list){
 #return(Dup_List)
 }
 
+##################################################################################
+#read the tree
 CNtree <- ladderize(read.tree("data/Date_CN_ToL_genus_pruned.tre"))
+#read the duplicate list
 du.names <- read.csv("data/360_duplicate.txt",stringsAsFactors = FALSE,  header=FALSE)
 du.names <- du.names$V1
+#apply the function
 Dup_name_branch(CNtree, du.names)
 
 data.file <- read.csv("results/duplicate_names_with_branches2.csv", header=TRUE)
 
-#rm.list <- NULL
+#also can output two different lilsts that containing the list that tips need to be removed
+# ot the list you want to keep
+
+#rm.list <- NULL #remove the "#" when applied
 #keep.list <- NULL
 for (name in du.names){
   Tt <- which.max(data.file$brLegth[grep(name, data.file$Tip)])
@@ -45,6 +52,8 @@ for (name in du.names){
 
 #write(keep.list, "results/duplcate_names_keep.txt")
 
+#rename the tree
+
 new.tips <- paste0(CNtree$tip.label, sep="_", seq(1,length(CNtree$tip.label)))
 
 new.tree <- CNtree
@@ -54,7 +63,9 @@ write.tree(new.tree, "results/Date_CN_ToL_genus_pruned_seq.tre")
 remve_tips <- read.csv("results/duplcate_names_removed.txt", header=FALSE)
 remove_tips <- as.character(remve_tips$V1)
 
+#remove the tips are non-monophyletic and with younger age
 Tree_mono <- drop.tip(new.tree,remove_tips)
 as.phylo(Tree_mono)
 
+#write the tree
 write.tree(Tree_mono, "results/Date_CN_ToL_genus_pruned_mono_seq.tre")
