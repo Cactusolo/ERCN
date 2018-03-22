@@ -24,10 +24,10 @@ plot.phylo(tree.nnl, show.tip.label = FALSE, main="nnls")
 CNTree_medusa <- readRDS("results/CNTree_MEDUSA.rds")
 summ <- medusaSummary(CNTree_medusa)
 
-saveRDS(rosids_medusa,"results/MEDUSA.rds")
-saveRDS(sum,"results/CNTree_MEDUSA_sum.rds")
+save(tree.ult, richness, CNTree_medusa, summ, file="results/CNTree_MEDUSA.rds")
 
-#this figure is till ugly
+
+#this figure is still ugly
 plotPrettyTree(summ, show.tip.label = FALSE, time=FALSE, node.labels = TRUE)
 axisPhylo()
 
