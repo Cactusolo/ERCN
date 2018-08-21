@@ -34,4 +34,4 @@ axisPhylo()
 # and now we can summarize as though it were a distribution
 results <- list(CNTree_medusa, CNTree_medusa)
 summ.rates <- multiMedusaSummary(results, tree.ult)
-write.csv(summ.rates$summary.tree$rates, "./CNTree_Medusa_rates.csv")
+write.csv(summ.rates$summary.tree$rates, "./results/CNTree_Medusa_rates.csv")
