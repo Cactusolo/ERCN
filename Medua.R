@@ -31,3 +31,7 @@ save(tree.ult, richness, CNTree_medusa, summ, file="results/CNTree_MEDUSA.rds")
 plotPrettyTree(summ, show.tip.label = FALSE, time=FALSE, node.labels = TRUE)
 axisPhylo()
 
+# and now we can summarize as though it were a distribution
+results <- list(CNTree_medusa, CNTree_medusa)
+summ.rates <- multiMedusaSummary(results, tree.ult)
+write.csv(summ.rates$summary.tree$rates, "./CNTree_Medusa_rates.csv")
